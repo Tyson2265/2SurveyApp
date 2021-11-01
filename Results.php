@@ -180,7 +180,7 @@ $conn = mysqli_connect("localhost","root","","phptutorials") or die (mysqli_erro
             
         </tr>
 		 <div class='form-group mb-3'>
-                                  <a href='Survey.php'><button class='btn btn-primary'>OK</button>
+                                  <a href='index.php'><button class='btn btn-primary'>OK</button>
                             </div>
           </table><br></br>";	
 		  
