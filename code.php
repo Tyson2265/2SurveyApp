@@ -25,7 +25,7 @@ if(isset($_POST['submit']))
     if($query_run)
     {
         $_SESSION['status'] = "Inserted Successfully";
-        header("Location: Survey.php");
+        header("Location: index.php");
     }
     else{
         $_SESSION['status'] = "Not Inserted Successfully";
