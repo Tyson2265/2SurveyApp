@@ -1,0 +1,140 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tyson's People Lifestyle Preferences Survey Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+
+            
+
+                <div class="card mt-5">
+                    <div class="card-header">
+                        <h4>Tyson's People Lifestyle Preferences Survey</h4>
+                    </div>
+                    <div class="card-body">
+
+                        <form action="code.php" method="POST">
+                            <div class="form-group mb-3">
+                                <label for="">Name</label>
+                                <input type="text" name="name" class="form-control" />
+                            </div>
+							<div class="form-group mb-3">
+                                <label for="">Surname</label>
+                                <input type="text" name="Surname" class="form-control" />
+                            </div>
+							<div class="form-group mb-3">
+                                <label for="">PhoneNumber</label>
+                                <input type="number_format" name="PhoneNumber" class="form-control" />
+                            </div>
+							<div class="form-group mb-3">
+                                <label for="">Date</label>
+                                <input type="date" name="dates" class="form-control" />
+                            </div>
+							<div class="form-group mb-3">
+                                <label for="">Age</label>
+                                <input type="number_format" name="Age" class="form-control" />
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="">What is your favourite food?</label> <br>
+                                <input type="checkbox" name="food[]" value="Pizza" /> Pizza<br></br>
+                                <input type="checkbox" name="food[]" value="Pasta" /> Pasta <br></br>
+								<input type="checkbox" name="food[]" value="PapnWors" />  Pap and Wors <br></br>
+                                <input type="checkbox" name="food[]" value="ChickenStirFry" /> Chicken Stir Fry <br></br>
+								<input type="checkbox" name="food[]" value="BeefStirFry" />  Beef Stir Fry <br></br>
+                                <input type="checkbox" name="food[]" value="Other" />  Other
+                            </div>
+
+						 <label>
+            Indicate Whether You Strongly Agree to Strongly Disagree
+        </label>
+  
+        <div class="form-control">
+            <label for="role" id="label-role">
+                I Like To Eat Out?
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="Eat" id="role">
+                <option value="1">Strongly Agree</option>
+                <option value="2">Agree</option>
+                <option value=" 3">
+                    Neutral
+                </option>
+                <option value="4">Disagree</option>
+                <option value="5">Strongly Disagree</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">
+                I Like To Watch Movies
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name=" Movies" id="role">
+               <option value="1">Strongly Agree</option>
+                <option value="2">Agree</option>
+                <option value=" 3">
+                    Neutral
+                </option>
+                <option value="4">Disagree</option>
+                <option value="5">Strongly Disagree</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">
+                I Like To Watch T.V
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="TV" id="role">
+                <option value="1">Strongly Agree</option>
+                <option value="2">Agree</option>
+                <option value="3">
+                    Neutral
+                </option>
+                <option value="4">Disagree</option>
+                <option value="5">Strongly Disagree</option>
+            </select>
+        </div>
+        <div class="form-control">
+            <label for="role" id="label-role">
+                I Like To Listen To The Radio
+            </label>
+             
+            <!-- Dropdown options -->
+            <select name="Radio" id="role">
+               <option value="1">Strongly Agree</option>
+                <option value="2">Agree</option>
+                <option value=" 3">
+                    Neutral
+                </option>
+                <option value="4">Disagree</option>
+                <option value="5">Strongly Disagree</option>
+            </select>
+        </div>
+       
+  
+                            <div class="form-group mb-3">
+                                <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                            </div>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
